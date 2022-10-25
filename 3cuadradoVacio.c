@@ -22,10 +22,7 @@ printf("Este programa permite imprimir un cuadrado de la medida que el usuario i
 printf("Ingrese la medida de un lado del cuadrado (solo número enteros)\n");
 
   scanf("%d", &lado);
-
-
-
-
+//imprime mensaje
   imprimirCuadrado(lado);
 
   return 0;
